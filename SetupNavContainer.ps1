@@ -182,8 +182,6 @@ try {
                      -useSSL `
                      -updateHosts `
                      -auth $Auth `
-                     -includeCSide `
-                     -doNotExportObjectsToText `
                      -authenticationEMail $Office365UserName `
                      -credential $credential `
                      -useBestContainerOS `
