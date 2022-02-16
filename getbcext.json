@@ -390,7 +390,7 @@
     },
     "variables": {
         "nchbranch": "[parameters('nchbranch')]",
-        "ContainerMemory": "[parameters('nchbranch')]",
+        "ContainerMemory": "[parameters('ContainerMemory')]",
         "vmName": "[trim(parameters('vmName'))]",
         "TimezoneId": "[parameters('TimezoneId')]",
         "AcceptEula": "[parameters('AcceptEula')]",
